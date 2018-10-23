@@ -6,6 +6,10 @@ $(function() {
   $('html').on('mouseup touchend', slideEnd);
   $('html').on('mousemove touchmove', slide);
   
+  currentSlide = 3;
+  sliding = 2;
+  slideEnd();
+
   /**
   / Triggers when slide event started
   */
