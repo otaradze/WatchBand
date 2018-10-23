@@ -29,8 +29,6 @@ body {
   transition: all .5s ease-out;
 }
 
-.slide:nth-child(1) {background-image: url(http://fakeimg.pl/640x480/);}
-.slide:nth-child(2) {background-image: url(http://fakeimg.pl/641x480/);}
-.slide:nth-child(3) {background-image: url(http://fakeimg.pl/642x480/);}
-.slide:nth-child(4) {background-image: url(http://fakeimg.pl/643x480/);}
-.slide:nth-child(5) {background-image: url(http://fakeimg.pl/644x480/);}
+.slide:nth-child(1) {background-image: url(img/orange.jpg);}
+.slide:nth-child(2) {background-image: url(img/blue.jpg);}
+.slide:nth-child(3) {background-image: url(img/brown.jpg);}
