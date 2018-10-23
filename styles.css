@@ -5,7 +5,7 @@ html, body {
 body {
   margin: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: white;
 }
 
 #slides {
@@ -32,3 +32,24 @@ body {
 .slide:nth-child(1) {background-image: url(img/orange.jpg);}
 .slide:nth-child(2) {background-image: url(img/blue.jpg);}
 .slide:nth-child(3) {background-image: url(img/brown.jpg);}
+.slide:nth-child(4) {background-image: url(img/brown.jpg);}
+.slide:nth-child(5) {background-image: url(img/brown.jpg);}
+
+#parent {
+  width: 156px;
+  height: 489px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#watch {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/gold_watch.png);
+    width: 150px;
+    height: 160px;
+    top: -325px;
+    /* left: 20px; */
+    left: 3px;
+}

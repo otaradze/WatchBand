@@ -61,7 +61,7 @@ $(function() {
       // Make sure that unexisting slides weren't selected.
       currentSlide = Math.min(Math.max(currentSlide, 0), slideCount - 1);
       // Since in this example slide is full viewport width offset can be calculated according to it.
-      pixelOffset = currentSlide * -$('body').width();
+      pixelOffset = currentSlide * -$('#parent').width();
       // Remove style from DOM (look below)
       $('#temp').remove();
       // Add a translate rule dynamically and asign id to it
