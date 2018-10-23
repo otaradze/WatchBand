@@ -32,8 +32,8 @@ body {
 .slide:nth-child(1) {background-image: url(img/orange.jpg);}
 .slide:nth-child(2) {background-image: url(img/blue.jpg);}
 .slide:nth-child(3) {background-image: url(img/brown.jpg);}
-.slide:nth-child(4) {background-image: url(img/brown.jpg);}
-.slide:nth-child(5) {background-image: url(img/brown.jpg);}
+.slide:nth-child(4) {background-image: url(img/blue.jpg);}
+.slide:nth-child(5) {background-image: url(img/orange.jpg);}
 
 #parent {
   width: 156px;
